@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Desafio_Database\Desafio_Database.csproj" />
+    <ProjectReference Include="..\Desafio_Dominio\Desafio_Dominio.csproj" />
+  </ItemGroup>
+
+</Project>
