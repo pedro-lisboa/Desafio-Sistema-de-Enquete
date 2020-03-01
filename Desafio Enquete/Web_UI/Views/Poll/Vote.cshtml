@@ -1,0 +1,56 @@
+﻿@model Web_UI.Models.VO_View
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Votando Enquete</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.id)
+    <center>
+        <div class="form-group">
+            <font size="6"><b><h>@Model.description</h></b></font>
+        </div>
+        <br />
+        <div class="form-group">
+            <label class="control-label">Selecione sua Resposta?</label><br /><br />
+            <table>
+                <tr>
+                    <td>
+                        @Html.RadioButton("option_vote", "1", true)
+                        <label for="Model.option_vote">@Model.option_1</label><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.RadioButton("option_vote", "2", false)
+                        <label for="Model.option_vote">@Model.option_2</label><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.RadioButton("option_vote", "3", false)
+                        <label for="Model.option_vote">@Model.option_3</label><br />
+                    </td>
+                </tr>
+            </table>
+
+            <span asp-validation-for="Model.option_vote" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Votar" class="btn btn-default" />
+        </div>
+    </center>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Voltar a Lista", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

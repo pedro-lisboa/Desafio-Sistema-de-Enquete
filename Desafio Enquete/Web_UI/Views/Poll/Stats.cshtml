@@ -1,0 +1,45 @@
+﻿@model Web_UI.Models.VO_View
+
+<div>
+    <h4>Estatística</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.option_1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.qty_1) votos
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.option_2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.qty_2) votos
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.option_3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.qty_3) votos
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.views)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.views)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Voltar para a Lista", "Index")
+</p>

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Web_UI.Models.VO_View>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Criar nova Enquete", "Cadastrar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.option_1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.option_2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.option_3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.views)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.option_1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.option_2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.option_3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.views)
+            </td>
+            <td>
+                @Html.ActionLink("Votar", "Vote", new { id = item.id }) |
+                @Html.ActionLink("Edit", "Editar", new { id = item.id }) |
+                @Html.ActionLink("Estatística", "Stats", new { id = item.id }) |
+                @Html.ActionLink("Excluir", "Excluir", new { id = item.id }, new { onclick = "return confirm('Você realmente deseja excluir esta enquete?');" })
+            </td>
+        </tr>
+    }
+    
+
+</table>
