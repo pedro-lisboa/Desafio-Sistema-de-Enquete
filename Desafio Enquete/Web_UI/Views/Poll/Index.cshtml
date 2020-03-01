@@ -29,33 +29,35 @@
         </th>
         <th></th>
     </tr>
-
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.option_1)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.option_2)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.option_3)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.views)
-            </td>
-            <td>
-                @Html.ActionLink("Votar", "Vote", new { id = item.id }) |
-                @Html.ActionLink("Edit", "Editar", new { id = item.id }) |
-                @Html.ActionLink("Estatística", "Stats", new { id = item.id }) |
-                @Html.ActionLink("Excluir", "Excluir", new { id = item.id }, new { onclick = "return confirm('Você realmente deseja excluir esta enquete?');" })
-            </td>
-        </tr>
-    }
     
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.option_1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.option_2)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.option_3)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.views)
+                </td>
+                <td>
+                    @Html.ActionLink("Votar", "Vote", new { id = item.id }) |
+                    @Html.ActionLink("Edit", "Editar", new { id = item.id }) |
+                    @Html.ActionLink("Estatística", "Stats", new { id = item.id }) |
+                    @Html.ActionLink("Excluir", "Excluir", new { id = item.id }, new { onclick = "return confirm('Você realmente deseja excluir esta enquete?');" })
+                </td>
+            </tr>
+        }
+    }
 
 </table>
