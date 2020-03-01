@@ -1,0 +1,25 @@
+C:\Users\T431137\Desktop\projeto teste\Desafio_Database\bin\Debug\netcoreapp2.1\Desafio_Database.deps.json
+C:\Users\T431137\Desktop\projeto teste\Desafio_Database\bin\Debug\netcoreapp2.1\Desafio_Database.dll
+C:\Users\T431137\Desktop\projeto teste\Desafio_Database\bin\Debug\netcoreapp2.1\Desafio_Database.pdb
+C:\Users\T431137\Desktop\projeto teste\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.AssemblyInfoInputs.cache
+C:\Users\T431137\Desktop\projeto teste\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.AssemblyInfo.cs
+C:\Users\T431137\Desktop\projeto teste\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.dll
+C:\Users\T431137\Desktop\projeto teste\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.pdb
+C:\Users\pegu_\OneDrive\Área de Trabalho\projeto teste\Desafio_Database\bin\Debug\netcoreapp2.1\Desafio_Database.deps.json
+C:\Users\pegu_\OneDrive\Área de Trabalho\projeto teste\Desafio_Database\bin\Debug\netcoreapp2.1\Desafio_Database.dll
+C:\Users\pegu_\OneDrive\Área de Trabalho\projeto teste\Desafio_Database\bin\Debug\netcoreapp2.1\Desafio_Database.pdb
+C:\Users\pegu_\OneDrive\Área de Trabalho\projeto teste\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.csprojAssemblyReference.cache
+C:\Users\pegu_\OneDrive\Área de Trabalho\projeto teste\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.csproj.CoreCompileInputs.cache
+C:\Users\pegu_\OneDrive\Área de Trabalho\projeto teste\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.AssemblyInfoInputs.cache
+C:\Users\pegu_\OneDrive\Área de Trabalho\projeto teste\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.AssemblyInfo.cs
+C:\Users\pegu_\OneDrive\Área de Trabalho\projeto teste\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.dll
+C:\Users\pegu_\OneDrive\Área de Trabalho\projeto teste\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.pdb
+C:\Users\pegu_\OneDrive\Área de Trabalho\Desafio Enquete\Desafio_Database\bin\Debug\netcoreapp2.1\Desafio_Database.deps.json
+C:\Users\pegu_\OneDrive\Área de Trabalho\Desafio Enquete\Desafio_Database\bin\Debug\netcoreapp2.1\Desafio_Database.dll
+C:\Users\pegu_\OneDrive\Área de Trabalho\Desafio Enquete\Desafio_Database\bin\Debug\netcoreapp2.1\Desafio_Database.pdb
+C:\Users\pegu_\OneDrive\Área de Trabalho\Desafio Enquete\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.csprojAssemblyReference.cache
+C:\Users\pegu_\OneDrive\Área de Trabalho\Desafio Enquete\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.csproj.CoreCompileInputs.cache
+C:\Users\pegu_\OneDrive\Área de Trabalho\Desafio Enquete\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.AssemblyInfoInputs.cache
+C:\Users\pegu_\OneDrive\Área de Trabalho\Desafio Enquete\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.AssemblyInfo.cs
+C:\Users\pegu_\OneDrive\Área de Trabalho\Desafio Enquete\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.dll
+C:\Users\pegu_\OneDrive\Área de Trabalho\Desafio Enquete\Desafio_Database\obj\Debug\netcoreapp2.1\Desafio_Database.pdb
